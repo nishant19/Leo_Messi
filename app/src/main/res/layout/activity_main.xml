@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context="com.example.android.leo_messi.MainActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+
+        android:layout_weight="6"
+
+        android:scaleType="fitXY"
+
+
+        android:src="@drawable/mes"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+
+
+        android:background="#212121"
+        android:text="Lionel Andres Messi"
+        android:textColor="#FFFFFF"
+
+        android:textSize="30sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#E1F5FE"
+
+        android:text="Club : Barcelona"
+        android:textColor="#212121"
+        android:textSize="24sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#B3E5FC"
+        android:text="Position:False Nine"
+
+
+        android:textColor="#212121"
+        android:textSize="24sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#81D4FA"
+        android:text="Jersey Number: 10"
+
+        android:textColor="#212121"
+        android:textSize="24sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#4FC3F7"
+
+        android:text="Nationality:Argentina"
+        android:textColor="#212121"
+        android:textSize="24sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#29B6F6"
+
+        android:text="Birthday : 24th June 1987"
+        android:textColor="#212121"
+        android:textSize="24sp" />
+
+</LinearLayout>
